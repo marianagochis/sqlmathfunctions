@@ -1,11 +1,11 @@
-# SQL Math Functions
+# SQL - Math - Functions
 ## SQL queries with math and numeric functions
 
 ```sql
 
 SELECT
 name,
-ROUND(weight / (CAST(height AS numeric))^2) AS BMI
+ROUND(weight / (CAST(height AS numeric))^2) as BMI
 FROM character;
 
 ```
